@@ -2,34 +2,59 @@
 html, body{
     height: 100%;
 }
+header{
+    width:100%;
+    height:20%;
+}
+main{
+    width:100%;
+    height:80%;
+    background-color: yellow;
 
+}
+footer{
+    width:100%;
+    height:20%;
+}
+#mainlogo{
+    width:400px;
+}
+#footerlogo{
+    border: solid 1px black;
+}
 body{
     display: flex;
     flex-direction: column;
-}
-header{
-    width: 100%;
-    height: 20%;
-    background-color: darkblue;
-}
-main{
-    width: 100%;
-    height: 80%;
-    background-color: aqua;
-    
-}
-footer{
-    width: 100%;
-    height: 20%;
-    background-color: darkblue;
 }
 
 img{
     width: 200px;
     margin: 20px;
 }
-#mainlogo{
-    width: 400px;
+#navmenu{
+    display: flex;
+    padding-left: 20px;
+}
+nav{
+    text-decoration: none;
+    list-style-type: none;
+}
+h1{
+font-size: 50px;
+background-color: violet;
+}
+li{
+    border: dashed 1px black;
+    
+}
+.de{
+    font-family: monospace;
+}
+.ulpo{
+    list-style-type: circle;
+}
+ul{
+    list-style-type:none;
 }
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
